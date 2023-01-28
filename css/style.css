@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#nav{
+    background-color: #333;
+    padding: 0 100px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 20px 20px;
+}
+  
+#nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+ul li .active {
+    background-color:#434544;
+    color: #DEC9AE;
+    padding: 22px 21px;
+}
+
+ul li a:hover {
+   color: #DEC9AE;
+}
+
+#Hotel {
+    background-image: url(../img/p1.jpg);
+    
+    height: calc(100vh - 88.2px);
+    background-size: cover;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 100px;
+    }
+    
+
+     #Hotel span{
+        color: #F2BC8E;
+        
+     }
+
+     #Hotel h1 {
+        font-size: 46px;
+        padding-bottom: 12px;
+     }
+     #Hotel p {
+        font-size: 20px;
+        padding-bottom: 12px;
+     }
+     #Hotel a {
+        display: block;
+        padding: 14px 10px;
+        width: 200px;
+        margin: 0 auto;
+        background-color: #333333;
+        text-decoration: none;
+        color: white;
+        margin-top: 15px;
+     }
+     #History{
+        background-color: #333;
+        width: 100%;
+       
+        
+        
+     }
+
+     .l-content img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+
+     .R-content {
+       
+        text-align: center;
+        padding: 50px;
+     }
+
+     .R-content a {
+      
+         display: block;
+         padding: 14px 10px;
+         width: 123px;
+         margin: 0 auto;
+         background-color: #333333;
+         text-decoration: none;
+         color: white;
+         margin-top: 15px;
+      
+     }
+
+   
+
+     #History h1 {
+        color: white;
+        padding-bottom: 15px;
+     }
+     #History p {
+        color: white;
+        line-height: 34.2px;
+        margin: 25px;
+        
+        
+     }
+     #History a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+     }
+
+     #location {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+      
+       
+     }
+     #location .Great {
+        background-color: white;
+        padding: 50px;
+       
+        text-align: center;
+     }
+     #location .Great i {
+      font-size: 40px;
+      color: #1D1D1D;
+      padding: 14px 18px;
+     }
+     
+
+     #location .Great h3 {
+        font-size: 20px;
+        color: #1D1D1D;
+        padding: 14px 18px;
+        
+       
+       
+        
+     }
+
+     #location .Great p {
+      line-height: 25px;
+      color: #B6BBBC;
+      font-size: 18px;
+     }
+     #location .Free{
+      background-color: #F7C08A;
+      padding: 50px;
+      text-align: center;
+     }
+     #location .Free i {
+      font-size: 40px;
+      color: #1D1D1D;
+      padding: 14px 18px;
+     }
+     #location .Free h3 {
+      font-size: 20px;
+      color: #1D1D1D;
+      padding: 14px 18px;
+     }
+     #location .Free p {
+      line-height: 25px;
+      color: #0c0c0c;
+      font-size: 18px;
+     }
+
+     #location .Fitness{
+        background-color: white;
+        padding: 58px;
+        text-align: center;
+        
+
+       
+      }
+
+      #location .Fitness i {
+         font-size: 40px;
+         color: #1D1D1D;
+         padding: 14px 18px;
+      }
+
+
+
+      #location .Fitnes h3 {
+         font-size: 20px;
+         color: #1D1D1D;
+         padding: 14px 18px;
+
+
+         
+      }
+
+
+      #location .Fitness p {
+         line-height: 26px;
+         color: #B6BBBC;
+         font-size: 18px;
+      }      
+     
+
+   
+
+     footer{
+        background-color: #444444;
+        height: 98px;
+        text-align: center;
+        padding: 38px;
+        color: white;
+        font-size: 18px;
+        
+     }
+
+   
+
+
+     
